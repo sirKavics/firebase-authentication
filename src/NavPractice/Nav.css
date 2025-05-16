@@ -1,0 +1,59 @@
+.practice__nav {
+    margin: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav__buttons {
+    margin: 8px;
+    padding: 10px 15px;
+    height: 45px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav__register {
+    background-color: rgb(146, 90, 231);
+}
+
+.nav__login {
+    color: black;
+}
+
+.nav__logout {
+    color: white;
+    background-color: rgb(146, 90, 231);
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #ccc 25%, #ddd 50%, #ccc 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 2s ease infinite;
+  border-radius: 5px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+
+.skeleton__register {
+    height: 36px;
+    margin: 8px;
+    padding: 10px 79px 0 0;
+}
+
+.skeleton__login {
+    margin: 8px;
+    padding: 15px 62px 0 0;
+}
