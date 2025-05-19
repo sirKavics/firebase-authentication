@@ -15,7 +15,7 @@ function Nav() {
 
   React.useEffect(() => {
     onAuthStateChanged(auth, (user) => {
-      console.log(user);
+      // console.log(user);
       setTimeout(() => {
         setLoading(false);
       }, 500);
